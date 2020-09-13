@@ -29,4 +29,8 @@ class TaskManager
     public function getTasks() {
        return $this->storage->all();
     }
+
+    public function deleteTask($id) {
+      return $this->storage->delete($id);
+    }
 }
