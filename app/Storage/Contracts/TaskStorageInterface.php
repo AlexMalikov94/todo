@@ -13,4 +13,5 @@ interface TaskStorageInterface
    public function update(Task $task);
    public function get($id);
    public function all();
+   public function delete($id);
 }
