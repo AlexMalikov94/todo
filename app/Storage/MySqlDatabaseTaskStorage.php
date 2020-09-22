@@ -99,4 +99,7 @@ class MySqlDatabaseTaskStorage implements TaskStorageInterface
         'complete' => $task->getComplete() ? 1 : 0
       ], $additional);
   }
+  public function signUp() {
+    
+  }
 }
