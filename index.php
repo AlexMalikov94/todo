@@ -32,7 +32,7 @@ $tasks = $taskManager->getTasks();
 
 <body>
 
-<table class="table">
+<table class="table-responsive">
   <thead>
     <th>ID</th>
     <th>Description</th>
